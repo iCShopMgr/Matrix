@@ -1,0 +1,12 @@
+{
+    "matrix|block": "Matrix",
+    "matrix.Motor_port.M1|block": "M1馬達",
+    "matrix.Motor_port.M2|block": "M2馬達",
+    "matrix.Motor_state.A1|block": "正轉",
+    "matrix.Motor_state.A2|block": "反轉",
+    "matrix.Motor_state.A3|block": "停止",
+    "matrix.move_motor_port|block": "控制 %mpt %apt|速度 %number (0~100)",
+    "matrix.Servo_port.S1": "S1伺服馬達",
+    "matrix.Servo_port.S2": "S2伺服馬達",
+    "matrix.move_servo_pin|block": "設定 %sepin |為 %number|角度"
+}

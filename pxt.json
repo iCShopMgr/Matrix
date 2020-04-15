@@ -1,0 +1,15 @@
+{
+    "name": "matrix",
+    "version": "1.0",
+    "description": "Matrix Micro:Bit V1.0",
+    "license": "MIT",
+    "dependencies": {
+        "NeoPixel": "github:microsoft/pxt-neopixel"
+    },
+    "files": [
+        "README.md",
+        "main.ts",
+        "_locales/zh/matrix-strings.json"
+    ],
+    "public": true
+}
