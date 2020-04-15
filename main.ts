@@ -1,8 +1,8 @@
-//% weight=0 color=#0000ff icon="\uf3cb" block="Matrix"
+//% weight=0 color=#3366ff icon="\uf2e0" block="Matrix"
 namespace matrix {
   let K = 4096 / 20
 	let StartBit = 0.5 * K
-	let FullScaleBit = 1.94 * K
+	let FullScaleBit = 2.4 * K
 
 	function init() {
 		pins.i2cWriteNumber(64, 16, NumberFormat.Int16BE, false)
