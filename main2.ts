@@ -12,14 +12,6 @@ namespace matrix {
 
 	init()
 
-	// function servo(Spin: number, Sangle: number) {
-	// 	let TS1 = (Sangle / 180 * FullScaleBit + StartBit) % 256
-	// 	let TS2 = (Sangle / 180 * FullScaleBit + StartBit) / 256
-	// 	let CH = (Spin - 1) * 4 + 8
-	// 	pins.i2cWriteNumber(64, CH * 256 + TS1, NumberFormat.Int16BE, false)
-	// 	pins.i2cWriteNumber(64, (CH + 1) * 256 + TS2, NumberFormat.Int16BE, false)
-	// }
-
   function led(Spin: number, Speed: number) {
 		let TM1 = Speed % 256
 		let TM2 = Speed / 256
@@ -92,20 +84,6 @@ namespace matrix {
       }
     }
   }
-
-	// export enum Servo_port {
-	// 	//% block="S1"
-	// 	S1 = 1,
-	// 	//% block="S2"
-	// 	S2 = 2
-	// }
-  //
-  // //%block="move Servo at pin %sepin |to %number|degrees"
-  // export function move_servo_pin(sepin: Servo_port = 1, usevalue: number): void {
-	//    if(usevalue>180)usevalue = 180
-	//    if(usevalue<0)usevalue = 0
-	//    servo(sepin, usevalue)
-  // }
 
   export enum Led_port {
 		//% block="S1"
