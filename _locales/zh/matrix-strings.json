@@ -6,7 +6,13 @@
     "matrix.Motor_state.A2|block": "反轉",
     "matrix.Motor_state.A3|block": "停止",
     "matrix.move_motor_port|block": "控制 %mpt %apt|速度 %number (0~100)",
-    "matrix.Servo_port.S1": "S1伺服馬達",
-    "matrix.Servo_port.S2": "S2伺服馬達",
-    "matrix.move_servo_pin|block": "設定 %sepin |為 %number|角度(0~180)"
+    //"matrix.Servo_port.S1": "S1伺服馬達",
+    //"matrix.Servo_port.S2": "S2伺服馬達",
+    //"matrix.move_servo_pin|block": "設定 %sepin |為 %number|角度(0~180)"
+    "matrix.Led_port.S1": "RGB1 紅色",
+    "matrix.Led_port.S2": "RGB1 綠色",
+    "matrix.Led_port.S3": "RGB1 藍色",
+    "matrix.Led_port.S4": "RGB2 紅色",
+    "matrix.Led_port.S5": "RGB2 綠色",
+    "matrix.Led_port.S6": "RGB2 藍色"
 }
