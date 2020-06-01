@@ -14,6 +14,6 @@
     "matrix.Led_port.S3": "RGB1 藍色",
     "matrix.Led_port.S4": "RGB2 紅色",
     "matrix.Led_port.S5": "RGB2 綠色",
-    "matrix.Led_port.S6": "RGB2 藍色"
+    "matrix.Led_port.S6": "RGB2 藍色",
     "matrix.rgb_led_pin|block": "設定 %sepin |為 %number|數值(0~100)"
 }
